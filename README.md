@@ -1,61 +1,65 @@
-# Illuminations
+![logo-font-rainbow](assets/logo-font-rainbow.png)
 
-**Illuminations** is a client sided Minecraft Fabric mod that adds multiple ambient particles in order to make your world more enjoyable at night or in dark places.
 
-## Illuminations types
 
-### Fireflies
+### What is Lumen?
 
-**Fireflies** are small flying insects that come out during the night and disappear when the sun rises. They will appear in small quantities in jungle, plains, savanna and taiga type biomes, medium quantities in forest and river type biomes and great quantity in swamp type biomes.![illuminations-1.0-fireflies](README.assets/illuminations-1.0-fireflies.png)
+Lumen is a Minecraft mod that adds various glowing ambient entities to your world in order to implement more detail and prettify your nights, along with adding a slight magical touch to your surroundings.
 
-### Glowworms
+Lumen also adds companion orbs, flying light orbs that will follow you around and light up areas for you.
 
-**Glowworms** are small larvae living in caves by sticking to the ceiling that will fall down if their support block is removed. They will appear in small quantities in jungle, plains, savanna and taiga type biomes, medium quantities in forest and river type biomes and great quantity in swamp type biomes.
+### Downloads
 
-![illuminations-1.0-glowworms](README.assets/illuminations-1.0-glowworms.png)
+Currently, the mod files are available solely on the mod's [Curse Forge project page](https://minecraft.curseforge.com/projects/lumen). Please do not download the mod from any other sources under any circumstances, as it can contain some viruses or may likely be an outdated version.
 
-### Plankton
+### Credits
 
-Glowing **plankton** - even though difficult to notice because of its size - can be found floating around in the dark parts of the oceanic depths. They appear in any ocean biome as long as the light is sufficiently low.
+Thanks to JannisX11 for making Blockbench! [Check it out](https://blockbench.net/).
 
-![illuminations-1.0-plankton](README.assets/illuminations-1.0-plankton.png)
+Thanks to [Pyrofab](https://minecraft.curseforge.com/members/Pyrofab) for the original code and his constant support. Couldn't do it without you mate!
 
-## Auras
+### Translations
 
-**Auras** are special Illuminations effects around the player visible to other players that have the mod. Auras currently serve as a bonus for donators that support the mod and are purely cosmetic with no other provided advantage whatsoever. They are visible to other players with Illuminations installed (even on vanilla servers).
+The mod is currently translated into the following languages:
 
-Two types of aura are currently availably: regular auras and prismatic auras. Regular auras are not customizable and have a specific color that you cannot change, while prismatic auras on the other hand will be colored depending on your Illuminations prismatic color.
+- 🇫🇷 French (thanks to ImmortalPharaoh)
 
-Auras and prismatic color can be selected and changed via the [Illuminations dashboard](https://illuminations.glitch.me/).
+- 🇷🇺 Russian (thanks to V972)
+- 🇺🇦 Ukrainian (thanks to V972)
+- 🇨🇳 Chinese (thanks to melt)
+- 🇪🇸 Spanish (thanks to Xesar_Zk)
+- 🇲🇽 Mexican (thanks to Xesar_Zk)
 
-### Twilight aura (prismatic)
+### I want to showcase / use this mod in a video / article, can I do it?
 
-The **Twilight** aura creates prismatic colored fireflies that will orbit around the player. If the player moves, they will leave a trail of these fireflies.
+Yes! Of course you can! However, you have a few things to respect if doing so:
 
-![illuminations-1.0-twilight-aura](README.assets/illuminations-1.0-twilight-aura.gif)
+- The file download has to be through this Curse Forge project page. **Under no circumstances** are you allowed to re-host the mod files.
+- You are **NOT** allowed, under any means, to put the link to this page through an ad wall site (like Ad.fly for example).
+- You have, of course, no right to take credit for the mod.
 
-## FAQ
+### Support and suggestions
 
-#### Can I include this mod in a modpack?
+If you have any ideas on how you would like to see the mod improve, please either submit an issue on this GitHub repo, leave a comment on Curse Forge or join our Discord and discuss about it with us.
 
-**Yes**: You can. Go ahead, don't bother asking. Please however provide credit and a link to either the GitHub repository or Curse Forge project page.
+If you have any problem with the mod, please ask for help on our Discord. If you encounter what you think is a bug, please submit an issue on this repository.
 
-#### Can I use this mod on a vanilla server?
+### Discord
 
-**Yes**: If you have installed this mod on your Minecraft client, you will be able to connect to vanilla Minecraft servers and the ambient illuminations will work as intended.
+[You can join our Discord server if you want to submit ideas, request help or just chat with us!](https://ladysnake.glitch.me/discord)
 
-#### Are auras visible to other players?
+### Gallery
 
-**Yes**: If the player has the mod installed on their client, your aura will be visible to them, just like their aura will be visible to you if they possess one.
+![lumen-fireflies](assets/lumen-fireflies.png)
 
-#### How to get an aura?
+![lumen-psi-fireflies](assets/lumen-psi-fireflies.png)
 
-**Auras are currently only available to donators**, if they have donated more than 1$.
+![lumen-lightning-bugs](assets/lumen-lightning-bugs.png)
 
-#### I wish to support the mod and get an aura. What steps do I need to follow?
+![lumen-embers](assets/lumen-embers.png)
 
-In order to get an aura, you will need to make a PayPal donation by following [this link](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6H4NEF43GM2S&source=url) or via the Curse Forge donate button available on the project page. **When making your donation, please include your Minecraft UUID as well as a valid email address (so I may contact you in case of any problem) in your message.** All donations and aura attributions are manually processed and done as soon as possible, but may take up to a day so please be patient.
+![lumen-solar-orb](assets/lumen-solar-orb.png)
 
-#### I want to change my aura / the color of my prismatic auras / disable it, what do I do?
+![lumen-will-o-wisps](assets/lumen-will-o-wisps.png)
 
-If you have donated multiple times, you may have multiple auras and may want to select a specific one. Or you may just simply want to change your prismatic color or disable your aura. **You can do all this via the [Illuminations dashboard](https://illuminations.glitch.me/)** with no restrictions whatsoever.
+![lumen-faeries](assets/lumen-faeries.png)

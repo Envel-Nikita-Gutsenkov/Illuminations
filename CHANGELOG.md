@@ -1,103 +1,67 @@
-# Illuminations - Changelog
+#####Version 1.12.2-0.4.1 - BUILT
+- Fixed incompatibility with latest versions of Gaspunk and Dissolution
+- Fixed embers lighting players on fire from 3 times as far as they should
 
-### Illuminations 1.0.5 - 1.16.2
-- Restricted firefly spawn between daily times 13000 and 23000 (previously was between 13000 and 1000)
-- Updated to Minecraft 1.16.2
+#####Version 1.12.2-0.4.0 - BUILT
+- Changed the name of the mod, but you must have noticed by now
+- Made it so the multiple companion orbs are concentrated into one single class
+- Tweaked companion orb following movement
+- Added thunderball companion and sparkling flint, currently unobtainable, but will be a special reward coming with the new Ladysnake rewards
+- Added Splinter and rat hammock
+- Added Will o' Wisps from Dissolution, sometimes spawning in swamps, spooky or dead biomes
+- Added Faeries from Dissolution, sometimes spawning in dense or magical biomes
+- Faeries and Will o' Wisps implement Albedo lighting
+- Added config options to enable Will o Wisp and Faerie spawns
+- Fixed a bug where psi fireflies would fade out upon being able to see the sky
 
-### Illuminations 1.0.4 - 1.16.1
-- Fixed an issue that caused illuminations to be incorrectly rendered with higher resolution resource packs
+#####Version 1.12.2-0.3.1 - BUILT
 
-### Illuminations 1.0.3 - 1.16.1
-- Added an offline mode so the mod doesn't crash when unable to contact the Illuminations server
+- Added albedo support for companion orbs, they will now light up your surroundings
+- Embers can now be captured in glass jars
+- Solar orb craft has been changed to use an ember in a jar instead of a firefly in a jar
+- Sneaking while using a companion summoner will remove all player companions
+- Added tooltips for the companion summoners
+- If the companion summoner has a custom name, the companion summoned will have that name
+- Lightning bugs will now fade by daylight, just like regular fireflies
+- 
+#####Version 1.12.2-0.3.0 - BUILT
+- Fireflies freed from a glass jar can no longer despawn
+- Firefly now use NBT tags, meaning they won't change of color when reloading your world
+- Tweaked firefly movement a bit
+- Reduced firefly max size to half
+- Modified firefly spawning behaviour, fireflies will no longer spawn in large swarms, but will be more frequent
+- Psi fireflies no longer spawn in the end, meaning you won't be able to see any unless you have a mod that introduces a magical type biome
+- Embers now only spawn near light sources (light level superior to 8)
+- Lightning bugs are now immune to lightning bolts
+- Added the solar orb: it will follow you, should you manage to obtain it, but you can only have one at a time
+- Config options no longer need the game to restart in order to take effect
+- Psi fireflies are now properly localized as "Psi firefly", and not just "Firefly"
+- Glass jar recipe will now unlock when obtaining glass
+- Refactored the code to make it look good
+- Config is now properly commented
 
-### Illuminations 1.0.2 - 1.16.1
-- Introduced prismatic auras, auras that you can change the color of on the [Illuminations dashboard](https://illuminations.glitch.me/)
-  - Made the twilight aura prismatic
+#####Version 1.12.2-0.2.1 - BUILT
+- Fireflies freed from a glass jar will now get liberated at the block aimed
+- Fixed various problems where the jar would disappear if the inventory is full and trying to capture or release a firefly
+- Improved firefly AI so they don't fly up too high and stay nearer to the ground
+- Fireflies are also less likely to dive into the ground or water
 
-### Illuminations 1.0.1 - 1.16.1
-- Fixed an issue where the game would crash upon loading the mod with Sodium
+#####Version 1.12.2-0.2.0 - BUILT
+- Removed accidental console output when spawning fireflies
+- Added Lightning bugs. These insects go out during stormy nights and produce a pretty bioluminescent cyan tint
+- Added Embers, nether flying entities that will set you on fire upon contact
+- Added glass jars, used to capture fireflies, psi fireflies and lightning bugs
+- Added glass jar recipe to the recipe book, unlocked when obtaining a glass block or crafting your first glass jar
+- Added English localization
+- Fixed version not showing correctly in the mod menu
 
-### Illuminations 1.0 - 1.16.1
-The great overhaul is here! Illuminations is now client only for better performance, spawn control, and the ability to connect to vanilla servers with it.
-- Illuminations are now particles instead of entities, enjoy being able having ten million fireflies without your server committing seppuku
-- Fireflies will now appear regularly in varying quantities depending on the various biomes instead of clouds
-- Added glowworms, illuminations that will stick to cave ceilings
-- Added glowing plankton, illuminations that will spawn in the dark sea depths
-- Removed firefly grass and firefly lantern blocks, glowmeal and firefly items and firefly grass world features
-- Introduced auras, special Illuminations effects around the player visible to other players that have the mod. These auras are currently a bonus for donators but some may be available through giveaways and other special events in the future.
-    - Added the Twilight aura
 
-### Illuminations 0.5.1 - 1.16.1
-- Updated to Minecraft 1.16.1 (thanks to Bulldog83 for the contribution!)
+#####Version 1.12.2-0.1.1 - BUILT
+- Fixed the crash on server startup (added a server proxy)
 
-### Illuminations 0.5 - 20w06a
-- Updated to Minecraft snapshot 20w06a
 
-### Illuminations 0.4 - 1.15.1
-- Reduced firefly AI tasks (light checking, despawn checking)
-- Removed firefly render distance limit
-- Removed the bug net
-- Fireflies are now catchable by hand
-- Firefly flickering animations are now paused when the game is paused
-- Increased firefly in a bottle light strength from 10 to 15 (now equivalent to a lantern)
-- Recipes for firefly grass (short and tall) and firefly in a bottle now unlocks upon getting a firefly for the first time
-- Recipe for glow meal now unlocks upon getting lime dye, glowstone dust or bone meal
-- Updated to Minecraft 1.15.1
+#####Version 1.12.2-0.1.0 - BUILT
+Initial Alpha version of the mod, introducing fireflies that spawn in swamps and forests, 
+along with psi fireflies appearing in the End and magical type biomes.
 
-### Illuminations 0.3 - 1.14.3
-+ Added glow meal
-	+ Crafted from a lime dye, bone meal and glowstone dust
-	+ When used on grass, grows firefly grass
-+ Updated to Minecraft 1.14.3
-
-### Illuminations 0.2 - 1.14.2
-+ Added Firefly grass (and Firefly tall grass)
-    + Generates in the world in plain, swamp, forest, jungle, savanna and river biomes
-    + Acts exactly like normal grass and tall grass
-    + Has a luminosity of 1
-    + Can be crafted from one Grass and one Firefly
-+ Completely change Firefly spawning mechanics
-    + Fireflies no longer spawn randomly, but now spawn from Firefly grass during night
-    + Fireflies are now very common to see in their habitat biomes
-+ Optimize firefly spawns and despawns, greatly decreasing the lag caused by the mod
-+ Fireflies now disappear on daytime
-+ Added trail particles to Will o' Wisps
-+ Reduced Firefly health to 1
-+ Added french localization
-+ Updated to Minecraft 1.14.2
-
-### Illuminations 0.1.7 - 1.14.1
-+ Fixed the bug where mip map levels wouldn't work
-+ Completely removeed the experimental items
-
-### Illuminations 0.1.6 - 1.14.1
-+ Added Firefly in a bottle
-+ Added Bug Net (can be used to capture Fireflies by attacking them)
-+ Added Firefly item
-+ Removed experimental items (nests, throwable Will o' Wisp...) from the creative inventory
-+ Updated to Minecraft 1.14.1
-
-### Illuminations 0.1.5 - 1.14
-+ Updated to Minecraft 1.14
-
-### Illuminations 0.1.4 - 19w14b
-+ Updated to Minecraft snapshot 19w14b
-
-### Illuminations 0.1.3 - 19w11b
-+ Added firefly and lightning bug nests: acts as a spawner for fireflies and lightning bugs during night
-+ Updated to Minecraft snapshot 19w11b (thanks Fab!)
-
-### Illuminations 0.1.2 - 19w02a
-+ Implemented Will o' Wisps, flaming spirits spawning in swamps at night (experimental)
-	+ Will o' Wisps are catchable
-	+ Will o' Wisps (in a player's hand) can be thrown
-+ Updated to Minecraft snapshot 19w02a
-
-### Illuminations 0.1.1 - 18w50a
-+ Fixed server side crashing on startup
-
-### Illuminations 0.1 - 18w50a
-+ Ported to Fabric mod loader (only fireflies and lightning bugs)
-+ Corrected firefly spawn rates
-+ Fireflies now flicker
-+ Changed the name of the mod from Lumen to Illuminations.
+#####Version history end
